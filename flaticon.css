@@ -1,0 +1,61 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 30/08/2016 18:02
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-book-chat:before { content: "\f100"; }
+.flaticon-book-sent:before { content: "\f101"; }
+.flaticon-book-with-add:before { content: "\f102"; }
+.flaticon-book-with-check:before { content: "\f103"; }
+.flaticon-book-with-cloud:before { content: "\f104"; }
+.flaticon-book-with-cross:before { content: "\f105"; }
+.flaticon-book-with-cursor:before { content: "\f106"; }
+.flaticon-book-with-download:before { content: "\f107"; }
+.flaticon-book-with-eye:before { content: "\f108"; }
+.flaticon-book-with-heart:before { content: "\f109"; }
+.flaticon-book-with-loading:before { content: "\f10a"; }
+.flaticon-book-with-lock:before { content: "\f10b"; }
+.flaticon-book-with-refresh:before { content: "\f10c"; }
+.flaticon-book-with-refreshing:before { content: "\f10d"; }
+.flaticon-book-with-remove:before { content: "\f10e"; }
+.flaticon-book-with-star:before { content: "\f10f"; }
+.flaticon-book-with-star-1:before { content: "\f110"; }
+.flaticon-book-with-time:before { content: "\f111"; }
+.flaticon-book-with-upload:before { content: "\f112"; }
+.flaticon-book-with-warning:before { content: "\f113"; }
+.flaticon-books:before { content: "\f114"; }
+.flaticon-buy-books:before { content: "\f115"; }
+.flaticon-donate:before { content: "\f116"; }
+.flaticon-empty-state-books:before { content: "\f117"; }
+.flaticon-library:before { content: "\f118"; }
+.flaticon-my-donation:before { content: "\f119"; }
+.flaticon-my-requests:before { content: "\f11a"; }
+.flaticon-profile:before { content: "\f11b"; }
+.flaticon-request:before { content: "\f11c"; }
+.flaticon-search:before { content: "\f11d"; }
